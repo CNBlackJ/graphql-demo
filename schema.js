@@ -1,5 +1,6 @@
 const graphql = require('graphql');
-const buildArgs = require('./utils/buildArgs');
+const buildArgs = require('./lib/buildArgs');
+
 const data = [
 	{id: 1, name: 'cat'},
 	{id: 2, name: 'dog'},
