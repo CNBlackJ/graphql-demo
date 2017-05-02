@@ -1,8 +1,8 @@
 # GraphQL Demo
 
-* [Start](start)
-* [Express server](express-server)
-* [Hapi server](hapi-server)
+* [Start](#start)
+* [Express server](#express-server)
+* [Hapi server](#hapi-server)
 
 ## Start
 ```
@@ -18,7 +18,6 @@ npm run hapi-server
 
 ## Hapi server
 
-mutation { updateCount }
 - [GET]`/graphql?query={count,rows{id,name}}`
 - [GET]`/graphql?query=mutation { updateCount }`
 
