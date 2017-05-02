@@ -34,4 +34,4 @@ mutation { updateCount }
 ```
 
 - [GET]`/hapi-graphql?query={count,rows{id,name}}`
-	- note: using `[hapi-grapqhl](https://github.com/SimonDegraeve/hapi-graphql)` package
+	- note: using [`hapi-grapqhl`](https://github.com/SimonDegraeve/hapi-graphql) package
