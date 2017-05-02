@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "start": "node server.js"
+    "express": "node express-server.js",
+    "hapi": "node hapi-server.js"
   },
   "author": "J.C",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "graphql": "^0.9.4"
+    "graphql": "^0.9.6",
+    "hapi": "^16.1.1",
+    "hapi-graphql": "^1.0.1"
   }
 }
