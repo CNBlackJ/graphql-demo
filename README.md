@@ -18,13 +18,20 @@ npm run hapi-server
 
 ## Hapi server
 
+mutation { updateCount }
 - [GET]`/graphql?query={count,rows{id,name}}`
+- [GET]`/graphql?query=mutation { updateCount }`
 
 - [POST]`/post-graphql`
 ```
 // body
 {count,rows{id,name}}
 ```
+- [POST]`/post-graphql`
+```
+//body
+mutation { updateCount }
+```
 
 - [GET]`/hapi-graphql?query={count,rows{id,name}}`
-	- note: using `hapi-grapqhl` package
+	- note: using `[hapi-grapqhl](https://github.com/SimonDegraeve/hapi-graphql)` package
