@@ -7,7 +7,7 @@ const data = [
 	{id: 3, name: 'pig'}
 ]
 
-let count = 10;
+let count = data.length;
 
 const schema = new graphql.GraphQLSchema({
 	query: new graphql.GraphQLObjectType({

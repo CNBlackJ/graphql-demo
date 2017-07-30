@@ -14,7 +14,11 @@
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "graphql": "^0.9.6",
+    "graphql-server-koa": "^1.0.4",
     "hapi": "^16.1.1",
-    "hapi-graphql": "^1.0.1"
+    "hapi-graphql": "^1.0.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1"
   }
 }
